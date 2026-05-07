@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: arial;
+}
+#navbar1{
+    height: 25px;
+    width: 100%;
+    background-color:#0C5ADB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navelement a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#navelement a:hover{
+    text-decoration: underline;
+    color: white;
+}
+i{
+     color: white;
+     margin-left: 15px;
+}
+#navbar2{
+    height: 94px;
+    background-color:#0C5ADB;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-logo{
+    height: 50px;
+    width: 397px;
+}
+#logo{
+    height: 84px;
+    width: 278px;
+    background-image: url(cgclandranlogo.gif);
+    background-size: cover;
+}
+#info a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-size: 14px;
+    margin-left: 15px;
+    text-align: center;
+    height: 41px;
+}
+#cont{
+    color:#0C5ADB;
+    background-color: white;
+    text-align: center;
+    height: 80PX;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: contact 3s linear 2s  infinite normal;
+}
+@keyframes contact{
+    to{background-color: #EFF2F7; color: #0C5ADB;}
+    from{background-color: #0C5ADB; color:white;}
+}
+#cont h4{
+    text-transform: uppercase;
+}
+#hero{
+    height: 610px;
+    width: 1230;
+    background-image: url(CGC-Landran-placement.jpg);
+    background-size:cover;
+}
+#info{
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info a{
+    font-size: 16px;
+    margin-left: 55px;
+}
+#abouts{
+    height: 240PX;
+    width: 100%;
+    background-color:#EFF2F7 ;
+    padding: 10px;
+}
+#about{
+    width: 940px;
+    height: 250px;
+    background-color: white;
+    color: rgb(68, 61, 61);
+    margin-left: 20%;
+    padding: 10PX;
+}
+#about h1{
+    color: black;
+    display: inline;
+}
+#about h2{
+    color: #0C5ADB;
+    text-transform: uppercase;
+    display: inline;
+}
+#last{
+    height: 35px;
+    background-color:  #ff8c03;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last h4{
+    animation: aply 5s linear 2s infinite normal;
+}
+#sendlst{
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    background-color: #0C5ADB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sendlst p{
+    margin-left: 10%;
+}
+#imp{
+    background-color: #0C5ADB;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-around;
+    padding: 10PX;
+}
+#imp a{
+    color: white;
+    text-decoration: none;
+}
+#imp li:hover{
+    text-decoration: underline;
+}
+#vido{
+    width: 940px;
+    height: 280px;
+    background-color: white;
+    margin-left: 20%;
+    padding: 10PX;
+}
+#vdo1{
+    height: 280px;
+    width: 100%;
+    background-color:#EFF2F7 ;
+    padding: 10px;
+}
+#tans{
+    animation: landra 2s linear 1s infinite reverse;
+}
+@keyframes landra{
+    to{margin-left: 0px;}
+    from{margin-left: 100px;}
+}
+@keyframes animation{
+    to{color: #0C5ADB;}
+    from{color: red;}
+}
+#tans h2{
+    animation:animation 2s ease-in-out 1s infinite normal;
+}
+@keyframes aply{
+    to{ margin-left: 0%;}
+    from{ margin-left: 100%;}
+}
+#fot{
+    height:210px;
+    background-color: #EFF2F7;
+}
+#fot-cont{
+    width: 940px;
+    height: 210px;
+    background-color: white;
+    color: #68696b;
+    padding: 10px;
+    border: 1px dotted black;
+    transition: all 1s ease-in;
+    animation: op 20s linear 1s infinite normal;
+}
+#fot-cont h1{
+    color:red;
+    text-transform: uppercase;
+    display: inline;
+    animation: lan 2s ease-in-out 1s infinite normal;
+}
+#fot-cont h2{
+    display: inline;
+    color: black;
+}
+@keyframes lan{
+    to{color: red;}
+    from{color: #0C5ADB;}
+}
+@keyframes op{
+    to{margin-left:0%;}
+    from{margin-left: 100%;}
+}
